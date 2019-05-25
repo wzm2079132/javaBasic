@@ -7,12 +7,10 @@ public class HW0524_8 {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         char a = input.next().charAt(0);//接收String中第一个char值
-        int b = a;
-        if (b>=97&&b<=122){
-            b -= 32;
-            a = (char) b;
+        if (a>=97&&a<=122){
+            a -= 32;
             System.out.println(a);
-        }else if (b>=65&&b<=106){
+        }else if (a>=65&&a<=106){
             System.out.println(a);
         }else {
             System.out.println("请输入正确值");
