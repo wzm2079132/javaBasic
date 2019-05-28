@@ -1,4 +1,4 @@
-package com.neuedu.test;
+package com.neuedu.com.neuedu.test;
 
 import java.util.Scanner;
 
@@ -8,7 +8,7 @@ public class CirTest {
         Scanner input=new Scanner(System.in);
         System.out.println("请输入圆的半径：");
         Circle c=new Circle();
-        c.r=input.nextFloat();
-        c.setR(c.r);
+        float r=input.nextFloat();
+        c.setR(r);
     }
 }

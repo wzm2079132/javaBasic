@@ -1,8 +1,8 @@
-package com.neuedu.test;
+package com.neuedu.com.neuedu.test;
 
 public class Rectangle {
-    int width;
-    int height;
+    int width=1;
+    int height=1;
 //  定义无参
     public void girth(){
         int g= width*2+height*2;

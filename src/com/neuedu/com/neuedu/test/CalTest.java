@@ -1,4 +1,4 @@
-package com.neuedu.test;
+package com.neuedu.com.neuedu.test;
 
 import java.util.Scanner;
 
@@ -15,20 +15,8 @@ public class CalTest {
             System.out.println("请输入运算的第二个数");
             Scanner b = new Scanner(System.in);
             c.b = b.nextDouble();
-            switch (c.s) {
-                case '+':
-                    System.out.println("计算结果为："+c.add());
-                    break;
-                case '-':
-                    System.out.println("计算结果为："+c.sub());
-                    break;
-                case '*':
-                    System.out.println("计算结果为："+c.mul());
-                    break;
-                case '/':
-                    System.out.println("计算结果为："+c.div());
-                    break;
-            }
+
+            c.swi();
         }
     }
 }

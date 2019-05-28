@@ -1,4 +1,4 @@
-package com.neuedu.test;
+package com.neuedu.com.neuedu.test;
 
 import java.util.Scanner;
 

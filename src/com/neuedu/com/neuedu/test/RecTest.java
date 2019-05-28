@@ -1,10 +1,9 @@
-package com.neuedu.test;
+package com.neuedu.com.neuedu.test;
 
 public class RecTest {
     public static void main(String[] args) {
         Rectangle g =new Rectangle();
-        g.width=1;
-        g.height=1;
+
         System.out.println("无参");
         g.girth();
         g.area();

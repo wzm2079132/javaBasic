@@ -1,4 +1,4 @@
-package com.neuedu.test;
+package com.neuedu.com.neuedu.test;
 
 public class HW0524_9 {
     //用 while 循环，计算 1~200 之间所有 3 的倍数之和。

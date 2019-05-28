@@ -1,4 +1,4 @@
-package com.neuedu.test;
+package com.neuedu.com.neuedu.test;
 
 public class Student {
 
@@ -7,8 +7,12 @@ public class Student {
     double score;
 
 
-    public double getScore() {
-        return score;
+
+    public Student(String name, int age, double score) {
+        super();
+        this.name = name;
+        this.age = age;
+        this.score = score;
     }
 
 
@@ -17,12 +21,10 @@ public class Student {
     }
 
 
-    public Student(String name, int age, double score) {
-        super();
-        this.name = name;
-        this.age = age;
-        this.score = score;
+    public double getScore() {
+        return score;
     }
+
 
 
     public String toString() {
@@ -47,6 +49,8 @@ public class Student {
         System.out.println("成绩第三" + stu[2].toString());
         System.out.println("成绩第四" + stu[3].toString());
         System.out.println("成绩第五" + stu[4].toString());
+
+
     }
 
 }

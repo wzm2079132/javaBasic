@@ -1,4 +1,4 @@
-package com.neuedu.test;
+package com.neuedu.com.neuedu.test;
 
 public class HW0524_5 {
     //分别计算1-100之间的奇数和 和偶数和
