@@ -7,6 +7,8 @@ public class PointTest {
         Point p2=new Point(30,60);
 
         p1.movePoint(120,150);
+        System.out.println(p1.string());
         p2.movePoint(130,160);
+        System.out.println(p2.string());
     }
 }

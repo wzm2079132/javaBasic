@@ -1,5 +1,7 @@
 package com.neuedu.com.neuedu.HomeWork0528;
 
+import java.util.Scanner;
+
 public class Wage {
     String name;
     char sex;
@@ -21,19 +23,43 @@ public class Wage {
                 ", type='" + type +", " ;
     }
 
-    public void Swi(){
+    public void computeSalay(){
         switch (type){
             case "Worker":
-                System.out.println(toString()+"工资：100元*30天");
+                int d;
+                System.out.println("请输入工作天数");
+                Scanner input=new Scanner(System.in);
+                d=input.nextInt();
+                if (d>=0&&d<=31){
+                    System.out.println(toString()+"工资(元)："+100*d);
+                }else {
+                    System.out.println("请输入正确天数");
+                }
                 break;
             case "Salesman":
-                System.out.println(toString()+"工资：2000元+提成");
+                double c;
+                System.out.println("请输入该销售的提成");
+                Scanner input1=new Scanner(System.in);
+                c=input1.nextDouble();
+                if (c>=0){
+                    System.out.println(toString()+"工资(元)："+(2000+c));
+                }else {
+                    System.out.println("请输入正确的提成数");
+                }
                 break;
             case "Manager":
                 System.out.println(toString()+"工资：6000元/月");
                 break;
             case "Floater":
-                System.out.println(toString()+"工资：10元/小时");
+                int h;
+                System.out.println("请输入该小时工的小时数");
+                Scanner input2=new Scanner(System.in);
+                h=input2.nextInt();
+                if (h>=0){
+                    System.out.println(toString()+"工资(元)："+(10*h));
+                }else {
+                    System.out.println("请输入正确的小时数");
+                }
                 break;
         }
 

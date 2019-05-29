@@ -14,10 +14,12 @@ public class Point {
     }
 
     public void movePoint(int dx,int dy){
-        x=dx;
-        y=dy;
-        System.out.println("移动之后的位置：（"+x+"，"+y+"）");
+        x+=dx;
+        y+=dy;
     }
 
+    public String string(){
+        return "("+x+","+y+")";
+    }
 
 }
