@@ -8,11 +8,11 @@ public class HW0524_1 {
         int a = 0;//定义百位
         int b = 0;//定义十位
         int c = 0;//定义个位
-        for (;result<=999;result++){
-            a = result/100;
-            b = result%100/10;
-            c = result%10;
-            if (result==a*a*a+b*b*b+c*c*c){
+        for (; result <= 999; result++) {
+            a = result / 100;
+            b = result % 100 / 10;
+            c = result % 10;
+            if (result == a * a * a + b * b * b + c * c * c) {
                 System.out.println(result);
             }
         }

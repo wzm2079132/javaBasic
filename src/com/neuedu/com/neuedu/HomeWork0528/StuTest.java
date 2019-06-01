@@ -32,9 +32,9 @@ public class StuTest {
             student.setCourse(courses);
             students[i]=student;
 
-            firstsum += courses[1].getScore();
-            secondsum += courses[2].getScore();
-            thirdsum += courses[3].getScore();
+            firstsum += courses[0].getScore();
+            secondsum += courses[1].getScore();
+            thirdsum += courses[2].getScore();
 
         }
 
@@ -43,9 +43,9 @@ public class StuTest {
             System.out.println(s);
         }
 
-        System.out.println("第一科平均成绩"+firstsum/3);
-        System.out.println("第二科平均成绩"+secondsum/3);
-        System.out.println("第三科平均成绩"+thirdsum/3);
+        System.out.println("第一科平均成绩"+firstsum/5);
+        System.out.println("第二科平均成绩"+secondsum/5);
+        System.out.println("第三科平均成绩"+thirdsum/5);
 
 
 

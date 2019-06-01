@@ -2,9 +2,9 @@ package com.neuedu.com.neuedu.HomeWork0529;
 
 public class People extends Monkey {
 
-    People(){
-        super();
-    }
+//    People(){
+//        super();
+//    }
 
     People(String name){
         super(name);
