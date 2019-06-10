@@ -44,6 +44,6 @@ public class Triangle extends Shap{
     @Override
     public void area() {
         double area=a*h/2;
-        System.out.println("矩形面积"+area);
+        System.out.println("三角形面积"+area);
     }
 }
