@@ -12,6 +12,7 @@ public class HW0613_3 {
         map.put(2, "周芷若");
         map.put(3, "汪峰");
         map.put(4, "灭绝师太");
+
 //1.遍历集合，并将序号与对应人名打印。
         for (Map.Entry<Integer,String> entry:map.entrySet()
              ) {
