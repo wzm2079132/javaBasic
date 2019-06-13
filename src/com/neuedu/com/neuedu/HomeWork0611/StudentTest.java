@@ -37,17 +37,16 @@ public class StudentTest {
         int score3=0;
 
         for (int i=0;i<list.size();i++){
-            Student student=list.get(i);
 
-            if (student.getClassNum()=="class04"){
+            if (list.get(i).getClassNum().equals("class04")){
                 t1++;
-                score1+=student.getScore();
-            }else if (student.getClassNum()=="class05"){
+                score1+=list.get(i).getScore();
+            }else if (list.get(i).getClassNum().equals("class05")){
                 t2++;
-                score2+=student.getScore();
-            }else if (student.getClassNum()=="class06"){
+                score2+=list.get(i).getScore();
+            }else if (list.get(i).getClassNum().equals("class06")){
                 t3++;
-                score3+=student.getScore();
+                score3+=list.get(i).getScore();
             }
         }
 
