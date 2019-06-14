@@ -7,15 +7,18 @@ public class HW0613_1 {
     public static void main(String[] args) {
 
         int[] arr=new int[10];
-        List<Integer> list=new ArrayList<>(10);
+        List<Integer> list=new ArrayList<>();
+
+
 
         for (int i=0;i<arr.length;i++){
             arr[i]=(int)(1+Math.random()*100);
-            if (arr[i]>=10){
-                list.add(i,arr[i]);
+            if (arr[i]<10){
+                continue;
+            }else {
+                list.add(arr[i]);
             }
         }
-
 
         for (Integer i:list
              ) {
